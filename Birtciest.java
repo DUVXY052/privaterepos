@@ -1,4 +1,6 @@
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 import java.time.Year;
 
 public class Birtciest {
@@ -17,10 +19,18 @@ public class Birtciest {
         int anioNacimiento = 2004;
         int mesNacimiento = 12;
         int diaNacimiento = 5;
-    
-        // Crea una instancia de LocalDate con tu fecha de nacimiento
+
         LocalDate fechaNacimiento = LocalDate.of(anioNacimiento, mesNacimiento, diaNacimiento);
     
-        System.out.println("Tu fecha de nacimiento es: " + fechaNacimiento);    
+        DateTimeFormatter formatoLatino = DateTimeFormatter.ofPattern("dd 'de' MMMM 'de' yyyy");
+
+        // Formatea la fecha en formato latino
+        String fechaLatina = fechaNacimiento.format(formatoLatino);
+
+        System.out.println("Tu fecha de nacimiento es: " + fechaNacimiento);  
+
+        System.out.println("Tu fecha de nacimiento en formato latino: " + fechaLatina);
+    
+
     }
 }
