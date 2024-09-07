@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+*{
+   margin: 5;
+   padding: 0%;
+   box-sizing: border-box;
+   
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(193, 188, 188, 0.1);
+    background-image: url(mando.jfif);
+ 
+ }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+h2{
+    color: rgb(22, 22, 22);
+    text-align: right;
+    margin: 5px 0;
+    font-size: small;
+    font-weight: normal;
+}
+form {
+    padding: 30px 80px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.form h1{
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    padding: 8px 8px;
+    background-color: #f4f4f5;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+    color: deepskyblue;
+    font-size: 24;
+    font-family: inherit;
+    text-align: center;
+    
+}
+p{
+    font-size: medium;
+    color: black;
+    font-family: a;
+}
+
+label{
+    color: black;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+button{
+    border: 0;
+    padding: 12px 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    font-size: 12px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    width: 250px;
+    color: #f5f5f5;
+    outline: none;
+}
+
+.box{
+    border: 0;
+    background-color:black;
+    padding: 15px;
+    border-radius: 252342424;
+    outline: none;
+    color: #404040;
+    background-image: url(mando.jfif);
+    
+}
+button:hover{
+    background-color: #42a8f6;
+    
+}
+h3{
+    color: white;
+    text-align: center;
+}
+footer p{
+    color:gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12;
+}
+
